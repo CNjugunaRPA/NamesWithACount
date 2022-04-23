@@ -1,11 +1,12 @@
 {
-  "name": "Names2",
+  "name": "NamesWithAIP-main",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "System.Buffers": "[4.5.1]",
     "System.Memory": "[4.5.4]",
-    "UiPath.MobileAutomation.Activities": "[21.10.3]",
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
     "UiPath.System.Activities": "[21.10.4]",
     "UiPath.UIAutomation.Activities": "[21.10.5]"
   },
@@ -13,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.10.5.0",
-  "projectVersion": "1.0.1",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -43,11 +44,11 @@
     "fileInfoCollection": [],
     "modernBehavior": true
   },
-  "expressionLanguage": "VisualBasic",
+  "expressionLanguage": "CSharp",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "56b92932-992c-4e3e-8a58-c43ec7231ff8",
+      "uniqueId": "133439a0-7d1f-4b17-b4cc-2b78870dff28",
       "input": [],
       "output": []
     }
